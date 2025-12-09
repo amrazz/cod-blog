@@ -140,8 +140,8 @@
 3. **Environment Configuration**
    Create a `.env` file in the frontend directory:
    ```env
-   VITE_API_BASE_URL=http://localhost:8000
-   VITE_WEBSOCKET_URL=ws://localhost:8000
+   VITE_API_BASE_URL=http://localhost:8000/api
+   VITE_WEBSOCKET_URL=ws://localhost:8000/api
    VITE_GEMINI_API_KEY=YOUR GEMINI API
    VITE_GOOGLE_CLIENT_ID=YOUR GOOGLE CLIENT ID
    ```
